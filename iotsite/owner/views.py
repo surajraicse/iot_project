@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.contrib.auth.models import Position
+from .models import Position
 from rest_framework import viewsets
-from iotsite.owner.serializers import PositionSerializer
+from .serializers import PositionSerializer
 
 # Create your views here.
 class PositionViewSet(viewsets.ModelViewSet):

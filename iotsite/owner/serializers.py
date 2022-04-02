@@ -1,4 +1,4 @@
-from django.contrib.auth.models import Position
+from .models import Position
 from rest_framework import serializers
 
 class PositionSerializer(serializers.HyperlinkedModelSerializer):
