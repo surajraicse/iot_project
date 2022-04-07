@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from .models import Position
 from rest_framework import viewsets
+from .models import Position
 from .serializers import PositionSerializer
 
 # Create your views here.
