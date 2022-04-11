@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 def index(request):
     return HttpResponse(
-.gradient-custom {
+".gradient-custom {
 background: #c0190d;
 background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
 background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
@@ -46,6 +46,6 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
       </div>
     </div>
   </div>
-</section>)
+</section>")
 
 
