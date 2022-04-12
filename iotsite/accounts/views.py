@@ -4,12 +4,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse(
-""".gradient-custom {
-background: #c0190d;
-background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
-background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
-}
+    return HttpResponse("""
 <section class="vh-100 gradient-custom">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
